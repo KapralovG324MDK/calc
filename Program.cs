@@ -17,6 +17,10 @@ namespace Капралов324
             b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Сложение");
             result = a + b;
+            Console.WriteLine("Ответ: " + result);
+            Console.WriteLine("Вычитание");
+            result2 = a - b;
+
 
         }
     }
