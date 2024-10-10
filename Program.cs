@@ -20,6 +20,10 @@ namespace Капралов324
             Console.WriteLine("Ответ: " + result);
             Console.WriteLine("Вычитание");
             result2 = a - b;
+            Console.WriteLine("Ответ: " + result2);
+            Console.WriteLine("Умножение");
+            result3 = a * b;
+            Console.WriteLine("Ответ: " + result3);
 
 
         }
