@@ -30,6 +30,10 @@ namespace Капралов324
             r = Convert.ToDouble(Console.ReadLine());
             resultR = Math.PI*(r*2);
             Console.WriteLine("Ответ: " + resultR);
+            resultR = r*r;
+            Console.WriteLine("Ответ: " + resultR);
+
+
 
 
         }
