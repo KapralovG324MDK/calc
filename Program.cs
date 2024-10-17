@@ -11,6 +11,7 @@ namespace Капралов324
         static void Main(string[] args)
         {
             int a, b, result, result2,result3,result4;
+            double resultR,r;
             Console.WriteLine("1 число");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("2 число");
@@ -24,6 +25,11 @@ namespace Капралов324
             Console.WriteLine("Умножение");
             result3 = a * b;
             Console.WriteLine("Ответ: " + result3);
+
+            Console.WriteLine("Введите радиус круга");
+            r = Convert.ToDouble(Console.ReadLine());
+            resultR = Math.PI*(r*2);
+            Console.WriteLine("Ответ: " + resultR);
 
 
         }
